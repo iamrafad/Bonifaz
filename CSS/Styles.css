@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #033131;
+    color: white;
+    padding: 2rem 0;
+}
+
+header img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Info-Header {
+    position: absolute;
+    top: 0;
+}
+
+.Redes_Sociales a img {
+    width: 4%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 4%;
+}
+
+.Redes_Sociales a img.Tripadvisor {
+    width: 5%;
+}
+
+.Direccion-Telefono {
+    padding-top: 3%;
+}
+
+.Direccion-Telefono p {
+    padding-top: 1%;
+    padding-right: 3%;
+    color: white;
+    text-align: right;
+    font-size: 110%;
+}
+
+main {
+    padding: 14.2% 0;
+    background-color: blanchedalmond;
+}
