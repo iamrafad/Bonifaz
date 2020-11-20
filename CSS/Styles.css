@@ -6,37 +6,46 @@
 header, footer {
     background-color: #033131;
     color: white;
-    padding: 2rem 0;
+    padding: 2% 0;
 }
 
-header img {
+.Logo {
     width: 25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.Info-Header {
+Header div.Redes-Sociales {
     position: absolute;
-    top: 0;
+    top: 8%;
+    left: 2%;
 }
 
-.Redes_Sociales a img {
-    width: 4%;
-    float: left;
-    padding-left: 3%;
-    padding-top: 4%;
+.Facebook, .Instagram, .Tripadvisor {
+    margin-left: 3%;
 }
 
-.Redes_Sociales a img.Tripadvisor {
+.Facebook {
     width: 5%;
 }
 
-.Direccion-Telefono {
-    padding-top: 3%;
+.Instagram {
+    width: 4.5%;
 }
 
-.Direccion-Telefono p {
+.Tripadvisor {
+    width: 6.3%;
+}
+
+Header div.Información-Header {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 22%;
+}
+
+Header div.Información-Header p {
     padding-top: 1%;
     padding-right: 3%;
     color: white;
@@ -47,4 +56,23 @@ header img {
 main {
     padding: 14.2% 0;
     background-color: blanchedalmond;
+}
+
+footer div.Enlaces {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 180%;
+}
+
+footer div.Enlaces a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+footer div.Información-Footer {
+    text-align: center;
+    margin-top: 2.5%;
+    font-size: 120%;
 }
