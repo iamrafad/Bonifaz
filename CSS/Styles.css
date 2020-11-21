@@ -1,25 +1,29 @@
 * {
     padding: 0;
     margin: 0;
+    /*font-family: 'Kaushan Script', cursive;
+    font-family: 'Sansita Swashed', cursive;*/
 }
 
 header, footer {
     background-color: #033131;
     color: white;
     padding: 2% 0;
-}
-
-.Logo {
-    width: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
 }
 
 Header div.Redes-Sociales {
     position: absolute;
-    top: 8%;
+    top: 17%;
     left: 2%;
+}
+
+Header div.Redes-Sociales a {
+    cursor: default;
+}
+
+Header div.Redes-Sociales a img {
+    cursor: pointer;
 }
 
 .Facebook, .Instagram, .Tripadvisor {
@@ -38,11 +42,27 @@ Header div.Redes-Sociales {
     width: 6.3%;
 }
 
+Header a.Index {
+    cursor: default;
+}
+
+Header a.Index img {
+    cursor: pointer;
+}
+
+Header a img.Logo {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
 Header div.Información-Header {
     position: absolute;
-    top: 8%;
+    top: 19%;
     right: 5%;
-    width: 22%;
+    width: 24%;
 }
 
 Header div.Información-Header p {
@@ -50,21 +70,194 @@ Header div.Información-Header p {
     padding-right: 3%;
     color: white;
     text-align: right;
-    font-size: 110%;
+    font-size: 120%;
+}
+
+nav.Enlaces_Header {
+    margin-top: 2%;
+    margin-bottom: -2%;
+}
+
+nav.Enlaces_Header ul {
+    display: flex;
+    list-style: none;
+}
+
+nav.Enlaces_Header ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 150%;
+}
+
+nav.Enlaces_Header a {
+    display: block;
+    padding: 1em;
+    padding-right: 6em;
+    padding-left: 6em;
+    background-color: #BF9515;
+    text-decoration: none;
+    color: white;
+}
+nav.Enlaces_Header a:hover {
+    background-color: #CC673B;
+}
+
+nav ul li {
+    border-right: 2px solid #033131;
+}
+
+nav ul li:last-of-type {
+    border-right: none;
 }
 
 main {
-    padding: 14.2% 0;
+    padding: 5% 0;
     background-color: blanchedalmond;
 }
 
-footer div.Enlaces {
+main h1.Titulo {
     text-align: center;
-    margin-top: 2%;
-    font-size: 180%;
+    text-decoration: underline;
+    font-size: 250%;
+    margin-bottom: 3%;
+    color: #033131;
 }
 
-footer div.Enlaces a {
+div.Plato_Impares, div.Plato_Pares_1, div.Plato_Pares_2 {
+    margin-left: 10%;
+    color: #033131;
+}
+
+div.Plato_Pares_1 {
+    position: absolute;
+    top: 58.6%;
+    left: 46%;
+    width: 44%;
+}
+
+div.Plato_Pares_2 {
+    position: absolute;
+    top: 140.5%;
+    left: 46%;
+    width: 44%;
+}
+
+div.Plato_Impares img {
+    width: 35%;
+}
+
+div.Plato_Pares_1 img, div.Plato_Pares_2 img {
+    width: 71.6%;
+}
+
+div.Plato_Impares p {
+    font-size: 150%;
+    margin-top: 1%;
+}
+
+div.Plato_Pares_1 p, div.Plato_Pares_2 p {
+    font-size: 150%;
+    margin-top: 2.5%;
+}
+
+div.Plato_Impares div.Informacion_Plato {
+    margin-top: 1%;
+    width: 35%;
+    font-size: 130%;
+}
+
+div.Plato_Pares_1 div.Informacion_Plato, div.Plato_Pares_2 div.Informacion_Plato {
+    margin-top: 1%;
+    width: 71.6%;
+    font-size: 130%;
+}
+
+p.Nombre_Plato {
+    float: left;
+    font-weight: bold;
+}
+
+p.Precio_Plato {
+    float: right;
+    font-weight: bold;
+    color: tomato;
+}
+
+main div.Plato_Impares p.Descripcion {
+    margin-top: 5%;
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+main div.Plato_Pares_1 p.Descripcion, main div.Plato_Pares_2 p.Descripcion {
+    margin-top: 10.3%;
+    width: 72%;
+}
+
+main div.Mapa {
+    margin-left: 10%;
+}
+
+main div.Horario {
+    width: 81%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+main div.Horario table, main div.Horario tr, main div.Horario th, main div.Horario td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+main div.Horario tr {
+    background-color: #033131;
+    color: white;
+}
+
+main div.Horario th {
+    font-size: 200%;
+    padding: 2%;
+    text-align: center;
+    width: 5%;
+}
+
+main div.Horario td {
+    font-size: 150%;
+    padding: 3%;
+    text-align: center;
+}
+
+main div.Informacion_Avisos_Legales {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main div.Informacion_Avisos_Legales h1 {
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+
+main div.Informacion_Avisos_Legales p {
+    margin-bottom: 2%;
+    font-size: 150%;
+}
+
+main div.Informacion_Avisos_Legales p:last-of-type {
+    margin-bottom: 0;
+}
+
+main div.Informacion_Avisos_Legales p a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer div.Enlaces_Footer {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 150%;
+}
+
+footer div.Enlaces_Footer a {
     color: white;
     text-decoration: none;
     margin-right: 2%;
@@ -75,4 +268,31 @@ footer div.Información-Footer {
     text-align: center;
     margin-top: 2.5%;
     font-size: 120%;
+}
+
+footer div.Logo_Creador img {
+    width: 18%;
+    position: absolute;
+    top: 33%;
+    left: 5.5%;
+}
+
+footer div.Avisos_Legales {
+    position: absolute;
+    top: 35%;
+    left: 79%;
+    text-align: center;
+}
+
+footer div.Avisos_Legales a {
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+
+footer div.Avisos_Legales p {
+    font-size: 150%;
+    color: white;
+    margin-top: 10%;
+    text-decoration: none;
 }
