@@ -251,6 +251,32 @@ main div.Informacion_Avisos_Legales p a {
     text-decoration: none;
 }
 
+main div.Nosotros {
+    margin-bottom: 1%;
+    margin-left: 5%;
+    color: #033131;
+}
+
+main div.Nosotros img.Imagen_Nosotros {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+main div.Nosotros h1.Titulo_Nosotros {
+    font-size: 250%;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 89%;
+    text-decoration: underline;
+}
+
+main div.Nosotros p.Descripcion_Nosotros {
+    font-size: 125%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
 footer div.Enlaces_Footer {
     text-align: center;
     margin-top: 2%;
