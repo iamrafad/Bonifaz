@@ -209,6 +209,15 @@ main div.Horario table, main div.Horario tr, main div.Horario th, main div.Horar
     border-collapse: collapse;
 }
 
+main div.Horario table caption {
+    font-size: 250%;
+    color: white;
+    padding: 1%;
+    background-color: #033131;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
 main div.Horario tr {
     background-color: #033131;
     color: white;
@@ -290,11 +299,23 @@ main div.Formulario {
 main div.Formulario form {
     position: absolute;
     top: 19%;
-    right: 27%;
+    right: 30%;
+}
+
+main div.Formulario form h1 {
+    position: absolute;
+    top: -20%;
+    left: 30%;
+    text-decoration: underline;
+    color: #033131;
+}
+
+main div.Formulario form p {
+    color: #033131;
 }
 
 main div.Formulario form input, main div.Formulario form textarea {
-    width: 150%;
+    width: 220%;
     margin-top: 20%;
     margin-bottom: 20%;
 }
@@ -314,7 +335,7 @@ main div.Formulario form button {
     background-color: #033131;
     border: 3px solid lightgrey;
     cursor: pointer;
-    margin-left: 25%;
+    margin-left: 63%;
 }
 
 main div.Formulario form div.Quitar {
@@ -330,7 +351,7 @@ main div.Formulario form #errores {
     width: 325px;
     position: absolute;
     bottom: -27%;
-    right: -89%;
+    right: -120%;
     color: red;
     padding: 10%;
 }

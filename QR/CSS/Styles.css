@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #033131;
+    color: white;
+    padding: 2% 0;
+    position: relative;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+}
+
+main {
+    padding: 5% 0;
+    background-color: blanchedalmond;
+}
+
+main div {
+    background-color: #033131;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+main div div.Elemento {
+    padding-top: 5%;
+    position: relative;
+}
+
+main div div.Elemento:last-of-type {
+    padding-bottom: 5%;
+    position: relative;
+}
+
+main div h1 {
+    color: #BF9515;
+    text-align: center;
+    padding-top: 5%;
+    text-decoration: underline;
+    font-size: 250%;
+}
+
+main div div.Elemento p {
+    color: #BF9515;
+    font-size: 200%;
+    padding-top: 3%;
+    padding-left: 30%;
+}
+
+main div div.Elemento button {
+    color: #BF9515;
+    font-size: 250%;
+    text-align: center;
+    width: 7%;
+    height: 45px;
+    position: absolute;
+    top: 43%;
+    left: 65%;
+    border-radius: 5px;
+}
+
+main div button {
+    color: #BF9515;
+    font-size: 150%;
+    text-align: center;
+    width: 20%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
