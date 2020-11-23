@@ -45,14 +45,22 @@ main div h1 {
     text-align: center;
     padding-top: 5%;
     text-decoration: underline;
-    font-size: 250%;
+    font-size: 350%;
 }
 
 main div div.Elemento p {
     color: #BF9515;
     font-size: 200%;
     padding-top: 3%;
-    padding-left: 30%;
+    max-width: 70%;
+}
+
+main div div.Elemento span {
+    color: #BF9515;
+    font-size: 100%;
+    position: absolute;
+    bottom: 20%;
+    max-width: 70%;
 }
 
 main div div.Elemento button {
@@ -63,7 +71,7 @@ main div div.Elemento button {
     height: 45px;
     position: absolute;
     top: 43%;
-    left: 65%;
+    left: 90%;
     border-radius: 5px;
 }
 
