@@ -11,7 +11,38 @@
 </head>
 
 <body>
-    
+
+    <div class="Login" id="Login">
+        <p>Usuario</p>
+        <input type="text" name="usuario" id="usuario">
+        <p>Contreseña</p>
+        <input type="password" name="contraseña" id="contraseña">
+        <button type="submit" id="Enviar">Iniciar Sesión</button>
+    </div>
+    <div class="Quitar" id="errores"></div>
+    <div class="Quitar" id="errores2"></div>
+
+    <header class="Quitar" id="header">
+        <h1>Bienvenido José al administrador de Bonifaz</h1>
+    </header>
+    <main class="Quitar" id="main">
+        <h1>¿Qué Quieres Hacer?</h1>
+        <div class="Desplegable">Inventario <img id="Inventario_2" class="Quitar" src="/Admin/Images/Flecha_Hacia_Arriba.png" alt="Flecha_Desplegable"><img id="Inventario" src="/Admin/Images/Flecha_Hacia_Abajo.png" alt="Flecha_Desplegable"></div>
+        <div class="Valores-Desplegables Quitar" id="Desplegable_1">
+            <ul>
+                <li><a href="/Admin/HTML/Actualizar_Inventario.html">Actualizar Inventario</a></li>
+                <li><a href="/Admin/HTML/Agregar_Elemento-s_Al_Inventario.html">Agregar Elemento/s Al Inventario</a></li>
+                <li><a href="/Admin/HTML/Eliminar_Elemento-s_Del_Inventario.html">Eliminar Elemento/s Del Inventario</a></li>
+            </ul>
+        </div>
+        <div class="Desplegable Flotante">Estadísticas <img id="Estadisticas_2" class="Quitar" src="/Admin/Images/Flecha_Hacia_Arriba.png" alt="Flecha_Desplegable"><img id="Estadisticas" src="/Admin/Images/Flecha_Hacia_Abajo.png" alt="Flecha_Desplegable"></div>
+        <div class="Valores-Desplegables Flotante2 Quitar" id="Desplegable_2">
+            <ul>
+                <li><a href="https://analytics.google.com/analytics/web/#/p253850080/reports/defaulthome?params=_u..nav%3Ddefault">Ver Estadísticas</a></li>
+            </ul>
+        </div>
+    </main>
+
 </body>
 
 </html>

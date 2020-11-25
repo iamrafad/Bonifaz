@@ -5,3 +5,213 @@
     font-family: 'Sansita Swashed', cursive;*/
 }
 
+body {
+    background-color: #033131;
+}
+
+div.Login {
+    background-color: #BF9515;
+    padding: 3% 7%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 10.5%;
+    margin-top: 12.5%;
+    border: 10px solid white;
+}
+
+div.Login p {
+    font-size: 150%;
+}
+
+div.Login input {
+    margin: 10% 0;
+    height: 20px;
+}
+
+div.Login button {
+    padding: 5%;
+    text-align: center;
+    margin-left: 14%;
+    font-size: 100%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+div.Login button:hover {
+    background-color: black;
+    color: white;
+}
+
+.Quitar, div.Quitar {
+    display: none;
+}
+
+.Aparecer, div.Aparecer {
+    display: block;
+}
+
+#errores {
+    background: yellow;
+    width: 11%;
+    position: absolute;
+    bottom: 34%;
+    right: 72%;
+    color: red;
+    padding: 5%;
+    text-align: center;
+    font-size: 150%;
+}
+
+#errores2 {
+    background: orange;
+    width: 15%;
+    position: absolute;
+    bottom: 32%;
+    right: 6%;
+    color: red;
+    padding: 5%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.error {
+    border: solid 2px #FF0000;
+}
+
+header h1 {
+    background-color: #BF9515;
+    padding: 3%;
+    font-size: 350%;
+    text-align: center;
+    color: white;
+}
+
+main h1 {
+    color: #BF9515;
+    margin-top: 5%;
+    text-decoration: underline;
+    font-size: 350%;
+    text-align: center;
+}
+
+main div.Desplegable {
+    padding: 5%;
+    background-color: black;
+    width: 25%;
+    margin-left: 9.5%;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 250%;
+    position: relative;
+    color: white;
+}
+
+main div.Desplegable img {
+    width: 10%;
+    position: absolute;
+    right: 13%;
+    top: 42%;
+    cursor: pointer;
+}
+
+main div.Valores-Desplegables {
+    padding: 3% 5%;
+    background-color: grey;
+    width: 25%;
+    margin-left: 9.5%;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10%;
+}
+
+li:last-of-type {
+    margin-bottom: 0;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+main div.Desplegable.Flotante {
+    position: absolute;
+    top: 41%;
+    left: 46%;
+}
+
+main div.Valores-Desplegables.Flotante2 {
+    position: absolute;
+    top: 81%;
+    left: 46%;
+}
+
+main div.Grupo_de_Plato {
+    padding: 3% 0;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 150%;
+    border: 10px solid #BF9515;
+}
+
+main div.Grupo_de_Plato select {
+    margin-right: 10%;
+    width: 25%;
+    height: 35px;
+}
+
+main div.Grupo_de_Plato input {
+    margin-left: 10%;
+    width: 25%;
+    height: 35px;
+}
+
+main button {
+    margin: 5% 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 2%;
+    border-radius: 12%;
+    font-size: 150%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+
+main button:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid red;
+}
+
+span.Texto {
+    margin-left: 13%;
+}
+
+span.Texto2 {
+    margin-left: 10%;
+}
+
+main div.Grupo_de_Plato span.Platos select {
+    margin-left: 10%;
+    margin-right: 0;
+    width: 25%;
+    height: 35px;
+}
