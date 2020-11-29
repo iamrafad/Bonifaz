@@ -9,15 +9,24 @@ function iniciar() {
 }
 
 function Validar_Usuario(evento) {
+    
+    var usuarioCorrecto = { 'usuario' : 'josemaria69', 'contraseña' : 'josemaria69' };
+    localStorage.setItem('clave', JSON.stringify(usuarioCorrecto));
+
     var usuario = document.getElementById("usuario").value, contraseña = document.getElementById("contraseña").value;
     
     if (/^[a-zA-ZñÑáéíóúÁÉÍÓÚ0-9\s]+$/.test(usuario)) {
         document.getElementById("usuario").classList.remove("error");
         if (/^[a-zA-ZñÑáéíóúÁÉÍÓÚ0-9\s]+$/.test(contraseña)) {
             document.getElementById("contraseña").classList.remove("error");
-            if (usuario == "josemaria69" & contraseña == "josemaria69") {
+
+            var usuarioCorrecto_Objeto_JSON = JSON.parse(localStorage.getItem('clave'));
+
+            if (usuario == usuarioCorrecto_Objeto_JSON.usuario & contraseña == usuarioCorrecto_Objeto_JSON.contraseña) {
                 document.getElementById("errores2").classList.remove("Aparecer");
                 document.getElementById("errores2").classList.add("Quitar");
+                document.getElementById("errores").classList.remove("Aparecer");
+                document.getElementById("errores").classList.add("Quitar");
                 document.getElementById("Login").classList.add("Quitar");
                 document.getElementById("header").classList.remove("Quitar");
                 document.getElementById("header").classList.add("Aparecer");
@@ -37,6 +46,7 @@ function Validar_Usuario(evento) {
                 evento.preventDefault();
                 return false;
             }
+
         } else {
             alert("Ups... Parece que algo va mal.");
             document.getElementById('errores').innerHTML = "ERROR. La contraseña no puede estar vacía.";

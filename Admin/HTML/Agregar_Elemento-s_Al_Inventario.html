@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonifaz - Agregar Elemento/s Al Inventario</title>
-    <link rel="stylesheet" href="/Admin/CSS/Styles.css">
-    <script src="/Admin/JavaScript/Scripts.js"></script>
-    <link rel="icon" type="image/png" href="/Admin/Images/Logo.PNG">
-</head>
-<body>
-    
-    <header>
-        <h1>Agregar Elemento/s Al Inventario</h1>
-    </header>
-    <main>
-        <h1>Tapas Frías</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Tapas Calientes</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Montaditos</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Panes de la Casa</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Quesos</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Postres</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Bebidas</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <h1>Vinos</h1>
-        <div class="Grupo_de_Plato">
-            <span class="Texto">Plato Nuevo:</span>
-            <input type="text">
-        </div>
-        <button type="submit">Agregar Platos</button>
-    </main>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bonifaz - Agregar Elemento/s Al Inventario</title>
+        <link rel="stylesheet" href="../CSS/Styles.css">
+        <script src="../JavaScript/Scripts.js"></script>
+        <link rel="icon" type="image/png" href="../Images/Logo.PNG">
+    </head>
+    <body>
 
-</body>
+        <header>
+            <h1>Agregar Elemento/s Al Inventario</h1>
+        </header>
+        <main>
+            <form action="../PHP/Agregar_Inventario.php" method="POST">
+                <h1>Tapas Frías</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Tapa_Fria">
+                </div>
+                <h1>Tapas Calientes</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Tapa_Caliente">
+                </div>
+                <h1>Montaditos</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Montadito">
+                </div>
+                <h1>Panes de la Casa</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Pan_de_la_Casa">
+                </div>
+                <h1>Quesos</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Queso">
+                </div>
+                <h1>Postres</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Postre">
+                </div>
+                <h1>Bebidas</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Bebida">
+                </div>
+                <h1>Vinos</h1>
+                <div class="Grupo_de_Plato">
+                    <span class="Texto">Plato Nuevo:</span>
+                    <input type="text" name="Vino">
+                </div>
+                <button type="submit" name="agregar">Agregar Platos</button>
+            </form>
+        </main>
+
+    </body>
 </html>
