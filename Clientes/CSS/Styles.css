@@ -122,7 +122,7 @@ main h1.Titulo {
     color: #033131;
 }
 
-div.Plato_Impares, div.Plato_Pares_1, div.Plato_Pares_2 {
+div.Plato_Impares, div.Plato_Pares_1, div.Plato_Pares_2, div.Plato_Pares_2_2, div.Plato_Pares_3, div.Plato_Pares_4 {
     margin-left: 10%;
     color: #033131;
 }
@@ -136,7 +136,28 @@ div.Plato_Pares_1 {
 
 div.Plato_Pares_2 {
     position: absolute;
-    top: 140.5%;
+    top: 145.1%;
+    left: 46%;
+    width: 44%;
+}
+
+div.Plato_Pares_2_2 {
+    position: absolute;
+    top: 154%;
+    left: 46%;
+    width: 44%;
+}
+
+div.Plato_Pares_3 {
+    position: absolute;
+    top: 254%;
+    left: 46%;
+    width: 44%;
+}
+
+div.Plato_Pares_4 {
+    position: absolute;
+    top: 372.1%;
     left: 46%;
     width: 44%;
 }
@@ -145,7 +166,7 @@ div.Plato_Impares img {
     width: 35%;
 }
 
-div.Plato_Pares_1 img, div.Plato_Pares_2 img {
+div.Plato_Pares_1 img, div.Plato_Pares_2 img, div.Plato_Pares_2_2 img,  div.Plato_Pares_3 img, div.Plato_Pares_4 img {
     width: 71.6%;
 }
 
@@ -154,7 +175,7 @@ div.Plato_Impares p {
     margin-top: 1%;
 }
 
-div.Plato_Pares_1 p, div.Plato_Pares_2 p {
+div.Plato_Pares_1 p, div.Plato_Pares_2 p, div.Plato_Pares_2_2 p, div.Plato_Pares_3 p, div.Plato_Pares_4 p {
     font-size: 150%;
     margin-top: 2.5%;
 }
@@ -165,7 +186,7 @@ div.Plato_Impares div.Informacion_Plato {
     font-size: 130%;
 }
 
-div.Plato_Pares_1 div.Informacion_Plato, div.Plato_Pares_2 div.Informacion_Plato {
+div.Plato_Pares_1 div.Informacion_Plato, div.Plato_Pares_2 div.Informacion_Plato, div.Plato_Pares_2_2 div.Informacion_Plato, div.Plato_Pares_3 div.Informacion_Plato, div.Plato_Pares_4 div.Informacion_Plato {
     margin-top: 1%;
     width: 71.6%;
     font-size: 130%;
@@ -188,7 +209,7 @@ main div.Plato_Impares p.Descripcion {
     margin-bottom: 5%;
 }
 
-main div.Plato_Pares_1 p.Descripcion, main div.Plato_Pares_2 p.Descripcion {
+main div.Plato_Pares_1 p.Descripcion, main div.Plato_Pares_2 p.Descripcion, main div.Plato_Pares_2_2 p.Descripcion, main div.Plato_Pares_3 p.Descripcion, main div.Plato_Pares_4 p.Descripcion {
     margin-top: 10.3%;
     width: 72%;
 }
@@ -285,6 +306,27 @@ main div.Nosotros p.Descripcion_Nosotros {
     margin-bottom: 2%;
 }
 
+main img.Galeria_1, main img.Galeria_2, main img.Galeria_3, main img.Galeria_4, main img.Galeria_5, main img.Galeria_6, main img.Galeria_7, main img.Galeria_8 {
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+}
+
+main img.Galeria_1:hover, main img.Galeria_2:hover, main img.Galeria_3:hover, main img.Galeria_4:hover, main img.Galeria_5:hover, main img.Galeria_6:hover, main img.Galeria_7:hover, main img.Galeria_8:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+main img.Galeria_7, main img.Galeria_8 {
+    margin-bottom: 0;
+}
+
+
 main div.Formulario {
     background-color: white;
     border: 5px solid black;
@@ -331,6 +373,7 @@ main div.Formulario form button {
     width: 100%;
     height: 50px;
     color: white;
+    font-size: 85%;
     background-color: #033131;
     border: 3px solid lightgrey;
     cursor: pointer;

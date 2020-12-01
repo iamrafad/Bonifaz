@@ -26,12 +26,13 @@ div.Login p {
 div.Login input {
     margin: 10% 0;
     height: 20px;
+    width: 100%;
 }
 
 div.Login button {
     padding: 5%;
     text-align: center;
-    margin-left: 14%;
+    margin-left: 16%;
     font-size: 100%;
     margin-top: 10%;
     cursor: pointer;
@@ -172,6 +173,7 @@ main div.Grupo_de_Plato select {
     margin-right: 10%;
     width: 25%;
     height: 35px;
+    font-size: 85%;
 }
 
 main div.Grupo_de_Plato input {

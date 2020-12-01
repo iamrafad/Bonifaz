@@ -65,15 +65,20 @@ main div div.Elemento span {
 }
 
 main div div.Elemento button {
-    color: #BF9515;
-    font-size: 250%;
-    text-align: center;
     width: 7%;
     height: 45px;
     position: absolute;
     top: 43%;
     left: 90%;
     border-radius: 5px;
+}
+
+main div div.Elemento button span {
+    color: #BF9515;
+    font-size: 250%;
+    position: absolute;
+    top: -64%;
+    left: 27%;
 }
 
 main div button {
